@@ -1,0 +1,13 @@
+var idade;
+
+
+  do{
+   idade = prompt("Qual a sua idade");
+  
+  }while (idade == null || idade == "");
+  
+if (idade >=18) {
+   alert("sua idade é:" +idade+"e você é maior de idade");
+}else{
+   alert("Menor de idade"+idade);
+}
